@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/peter-edbrooke.github.io/static/css/main.51692787.css",
-    "main.js": "/peter-edbrooke.github.io/static/js/main.cbde03b8.js",
-    "static/js/787.0c3b28c9.chunk.js": "/peter-edbrooke.github.io/static/js/787.0c3b28c9.chunk.js",
-    "static/media/pokemon_logo.png": "/peter-edbrooke.github.io/static/media/pokemon_logo.2a134145054fcc7bcc0d.png",
-    "static/media/pokedex.png": "/peter-edbrooke.github.io/static/media/pokedex.61870ff05fcc42cb2929.png",
-    "index.html": "/peter-edbrooke.github.io/index.html",
-    "main.51692787.css.map": "/peter-edbrooke.github.io/static/css/main.51692787.css.map",
-    "main.cbde03b8.js.map": "/peter-edbrooke.github.io/static/js/main.cbde03b8.js.map",
-    "787.0c3b28c9.chunk.js.map": "/peter-edbrooke.github.io/static/js/787.0c3b28c9.chunk.js.map"
+    "main.css": "/static/css/main.94cb3757.css",
+    "main.js": "/static/js/main.a7c274f0.js",
+    "static/js/787.0c3b28c9.chunk.js": "/static/js/787.0c3b28c9.chunk.js",
+    "static/media/pokemon_logo.png": "/static/media/pokemon_logo.2a134145054fcc7bcc0d.png",
+    "static/media/pokedex.png": "/static/media/pokedex.61870ff05fcc42cb2929.png",
+    "index.html": "/index.html",
+    "main.94cb3757.css.map": "/static/css/main.94cb3757.css.map",
+    "main.a7c274f0.js.map": "/static/js/main.a7c274f0.js.map",
+    "787.0c3b28c9.chunk.js.map": "/static/js/787.0c3b28c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51692787.css",
-    "static/js/main.cbde03b8.js"
+    "static/css/main.94cb3757.css",
+    "static/js/main.a7c274f0.js"
   ]
 }
