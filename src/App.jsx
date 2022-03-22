@@ -7,11 +7,11 @@ const App = () => {
   const [pokemon, setPokemon] = useState("pikachu");
   const [pokemonData, setPokemonData] = useState([]);
   const [pokemonType, setPokemonType] = useState("")
-  const [click, setClick] = useState(false)
-  let result;
-  let finished = 0;
-  const progress = document.getElementById("progress")
-  const loading = document.getElementById("loading")
+  // const [click, setClick] = useState(false)
+  // let result;
+  // let finished = 0;
+  // const progress = document.getElementById("progress")
+  // const loading = document.getElementById("loading")
   
 
   useEffect(() => {
@@ -72,7 +72,7 @@ const App = () => {
   const handleSubmit = (e) => {
     // progressIncrease()
     getPokemon();
-    setClick(true)
+    // setClick(true)
     e.preventDefault(); 
   }
 
@@ -90,7 +90,7 @@ const App = () => {
                           
                     </div>
                     <div className={styles.imageContainer}>
-                      <img src={data.sprites["front_default"]} />
+                      <img src={data.sprites["front_default"]} alt="" />
                         
                     </div>
                     <div className={styles.titleList}>
