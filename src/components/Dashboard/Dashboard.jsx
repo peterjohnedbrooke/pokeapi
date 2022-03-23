@@ -1,12 +1,12 @@
-import { useEffect, useState } from "react";
-import styles from "./App.module.scss";
+import React from 'react'
 import axios from "axios";
+import styles from "./Dashboard.module.scss";
+import {useState, useEffect} from "react";
 
-const App = () => {
-
-  const [pokemon, setPokemon] = useState("pikachu");
-  const [pokemonData, setPokemonData] = useState([]);
-  const [pokemonType, setPokemonType] = useState("")
+const Dashboard = () => {
+const [pokemon, setPokemon] = useState("pikachu");
+const [pokemonData, setPokemonData] = useState([]);
+const [pokemonType, setPokemonType] = useState("")
   // const [click, setClick] = useState(false)
   // let result;
   // let finished = 0;
@@ -120,4 +120,5 @@ const App = () => {
         </>;
 }
 
-export default App;
+
+export default Dashboard
