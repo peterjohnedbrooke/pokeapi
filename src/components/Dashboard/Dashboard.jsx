@@ -86,9 +86,8 @@ const [pokemonType, setPokemonType] = useState("")
                           <label htmlFor="">
                             <input className={styles.searchBar} placeholder="enter search" type="text" onChange={handleChange} />
                           </label>
-                          <button onClick={handleSubmit}>Search</button>
-                          
-                    </div>
+                          <button onClick={handleSubmit}>Search</button>    
+                      </div>
                     <div className={styles.imageContainer}>
                       <img src={data.sprites["front_default"]} alt="" />
                         
@@ -102,7 +101,6 @@ const [pokemonType, setPokemonType] = useState("")
                     <div className={styles.table}>
                       <ul>
                         <li className="divTableCell">Type -  {pokemonType} </li>
-                        {/* { data.types[1].type.name === null ? " " : <div>{data.types[1].type.name}</div>} */}
                         <li className="divTableCell">Height -  {Math.round(data.height * 3.9)} "</li>
                         <li className="divTableCell"> Weight - {Math.round(data.weight /4.3)} lbs</li>
                         <li className="divTableCell"> Move - {(data.moves[0].move.name)}</li>
